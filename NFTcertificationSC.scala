@@ -23,6 +23,9 @@ object NFTcertificationSC {
     val StudentPK = SELF.R4[Coll[Byte]]
     val CourseInformation = SELF.R5[Coll[String]]
     val TeamInformation = SELF.R6[Coll[String]]
+    val EligibleStudent = SELF.R7[Boolean]
+    val GraduationDate = SELF.R8[Coll[String]]
+    val StudentRating = SELF.R9[Coll[String]]
   )
 
   val StudentSpendingBox = Box(
